@@ -24,12 +24,12 @@ Automated Tests are covered for the below requirement:
 * Selenium Java
 
 ### Re-Usable PageObjects and Methods written in the Framework
-init()
-click()
-getCurrentUrl()
-typeText()
-isElementDisplayed()
-waitForElement()
+1. init()  
+2. click()  
+3. getCurrentUrl()  
+4. typeText()  
+5. isElementDisplayed()  
+6. waitForElement()  
 
 ### Software Pre-Requisites
 Browsers - Chrome
@@ -81,33 +81,3 @@ By default, it takes Chrome as Driver to execute the project
 
 ### Reports
 After the test execution completed, you can see Cucumber Basic HTML report as reports.html under target -> cucumber-report directory
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-mvn clean verify -Dspring.profiles.active=desktop -Dbrowser=firefox
